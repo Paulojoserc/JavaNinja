@@ -9,6 +9,7 @@ public class NinjaDaFolha {
         String statusDaMissao = "Em andamento";
         char nivelDaMissao = 'S';
 
+        //Verificar nivel da missão e idade do ninja
         if(idade < 15) {
             if (nivelDaMissao == 'C' || nivelDaMissao == 'D') {
                 statusDaMissao = "Concluida";
@@ -36,6 +37,7 @@ public class NinjaDaFolha {
         String statusDaMissao2 = "Em andamento";
         char nivelDaMissao2 = 'S';
 
+        //Verificar nivel da missão e idade do ninja
         if (idade2 < 15) {
             if (nivelDaMissao2 == 'C' || nivelDaMissao2 == 'D') {
                 statusDaMissao2 = "Missao concluida";
@@ -62,6 +64,17 @@ public class NinjaDaFolha {
         String missao3 = "Curar Feridos da guerra";
         String statusDaMissao3 = "Concluido";
         char nivelDaMissao3 = 'D';
+
+        //Verificar nivel da missão e idade do ninja
+        if (idade3 < 15) {
+            if (nivelDaMissao3 == 'C' || nivelDaMissao3 == 'D') {
+                statusDaMissao2 = "Missao concluida";
+            } else {
+                statusDaMissao3 = "Missao nao concluida, voce é muito novo";
+            }
+        } else {
+            statusDaMissao3 = "Missao concluida, voce é maior de idade";
+        }
 
         System.out.println("------------------------------------------------");
 
