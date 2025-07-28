@@ -23,6 +23,24 @@ public class Array {
 
         System.out.println(ninja[5]);
 
+        // Redeclarar o Array
+        ninja = new String[7];
+        ninja[0] = "Hashirama Senju";
+        ninja[1] = "Tobirama Senju";
+        ninja[2] = "Hiruzen Sarutobi";
+        ninja[3] = "Minato Namikaze";
+        ninja[4] = "Tsunade";
+        ninja[5] = "Kakashi Hatake";
+        ninja[6] = "Naruto Uzumaki";
+        System.out.println(ninja[2]);
+
+        //For para exibir todos ninjas do array
+
+        for (int i = 0; i < 7; i++) {
+            System.out.println(ninja[i]);
+        }
+
+
         //Array int inicializa como 0
         int[] idade = new int[2];
         System.out.println(idade[1]);
