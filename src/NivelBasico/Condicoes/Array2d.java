@@ -1,4 +1,4 @@
-package NivelBasico;
+package NivelBasico.Condicoes;
 
 public class Array2d {
     public static void main(String[] args) {

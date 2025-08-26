@@ -1,4 +1,4 @@
-package Desafio1;
+package NivelBasico.Desafio1;
 
 public class NinjaDaFolha {
     public static void main(String[] args) {
