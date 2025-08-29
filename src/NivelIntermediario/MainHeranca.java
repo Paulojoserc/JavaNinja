@@ -32,5 +32,15 @@ public class MainHeranca {
         Hinata.idade = 16;
         Hinata.AtivarBaykugan();
 
+        //Objeto 4
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 16;
+        Boruto.ModoSabioAtivado();
+        Boruto.AtivarJougan();
+        Boruto.AtivarOKarma();
+
     }
 }
