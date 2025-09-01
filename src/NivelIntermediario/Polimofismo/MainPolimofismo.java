@@ -1,6 +1,8 @@
 package NivelIntermediario.Polimofismo;
 
-public class Main {
+
+
+public class MainPolimofismo {
     public static void main(String[] args) {
 
         Uzumaki naruto = new Uzumaki();
