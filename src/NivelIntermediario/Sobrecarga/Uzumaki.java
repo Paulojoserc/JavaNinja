@@ -2,7 +2,7 @@ package NivelIntermediario.Sobrecarga;
 
 public class Uzumaki extends Ninja {
     public Uzumaki() {
-    super();
+        super();
     }
 
     public Uzumaki(String nome, String aldeia, int idade) {
@@ -25,4 +25,12 @@ public class Uzumaki extends Ninja {
     public void estrategiaDeBatalhaNinja() {
         System.out.println("Essa é a minha estrategia de combate");
     }
+
+
+    //Sobrecarga de método - Inteligencia de combate
+    @Override
+    public void inteligenciaDeCombate(){
+        System.out.println("Meu nome é: "+nome+" Essa é minha Inteligenc");
+    }
+
 }

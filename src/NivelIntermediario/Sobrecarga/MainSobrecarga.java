@@ -7,15 +7,12 @@ public class MainSobrecarga {
 
         //Obj uzumaki
 
-        Uzumaki naruto = new Uzumaki();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.aldeia = "Aldeia da Folha";
-        naruto.idade = 16;
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki","Naruto Uzumaki",16 );
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
 
         //Obj uchiha
-        Uchiha sasuke = new Uchiha("Sasuke Uchiha ","Sasuke Uchiha ", 17,50, NivelNinja.JOUNIN );
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha ","\"Naruto Uzumaki\" ", 17,50, NivelNinja.JOUNIN );
         sasuke.habilidadeEspecial();
         sasuke.estrategiaDeBatalhaNinja();
 
