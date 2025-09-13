@@ -38,6 +38,9 @@ public class Uchiha extends Ninja {
             System.out.println(" Seu QI é; " + qi + " e você precisa treinar mais seus estrategia.");
         }
     }
-
-
+    //Pq usamos anotação @Override é uma convenção
+    @Override
+    public void metodoProvisorio() {
+        System.out.println("teste na classe Uchiha");
+    }
 }

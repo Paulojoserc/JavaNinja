@@ -15,6 +15,7 @@ public class MainSobrecarga {
         Uchiha sasuke = new Uchiha("Sasuke Uchiha ","\"Naruto Uzumaki\" ", 17,50, NivelNinja.JOUNIN );
         sasuke.habilidadeEspecial();
         sasuke.estrategiaDeBatalhaNinja();
+        sasuke.metodoProvisorio();
 
         //Obj Uchiha 2
         Uchiha itachi = new Uchiha("Itachi Uchiha", "Aldeia da folha", 27);

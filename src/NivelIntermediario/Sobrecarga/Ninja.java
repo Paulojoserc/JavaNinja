@@ -55,4 +55,8 @@ public abstract class Ninja implements EstrategiaDeBatalha {
             System.out.println(" Seu QI é; " + qi + " e você precisa treinar mais seus estrategia.");
         }
     }
+    //Método sem @verride
+    public void metodoProvisorio(){
+        System.out.println("teste na classe Ninja");
+    }
 }
