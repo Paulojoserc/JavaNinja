@@ -20,17 +20,13 @@ public class Uzumaki extends Ninja {
         System.out.println("Meu nome é " + nome + " e esse é meu ataque Uzumaki");
     }
 
-
     @Override
     public void estrategiaDeBatalhaNinja() {
         System.out.println("Essa é a minha estrategia de combate");
     }
 
-
-    //Sobrecarga de método - Inteligencia de combate
     @Override
-    public void inteligenciaDeCombate(){
-        System.out.println("Meu nome é: "+nome+" Essa é minha Inteligenc");
+    public void inteligenciaDeCombate() {
+        System.out.println("Meu nome é: " + nome + " Essa é minha Inteligenc");
     }
-
 }
