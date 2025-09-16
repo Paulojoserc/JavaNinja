@@ -1,4 +1,5 @@
-package NivelIntermediario.Sobrecarga;
+package NivelIntermediario.ToString;
+
 
 public class Uchiha extends Ninja {
     public Uchiha() {
