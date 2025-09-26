@@ -1,6 +1,6 @@
-package NivelBasico.Condicoes;
+package NivelBasico.Arrays;
 
-public class Array2d {
+public class ArrayMultidimensionalAldeias {
     public static void main(String[] args) {
         String[][] ninjasEAldeias = new String[3][3];
 

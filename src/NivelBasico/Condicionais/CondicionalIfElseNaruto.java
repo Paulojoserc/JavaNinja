@@ -1,6 +1,6 @@
-package NivelBasico.Condicoes;
+package NivelBasico.Condicionais;
 
-public class IfEElse {
+public class CondicionalIfElseNaruto {
     public static void main(String[] args) {
         /*
          * if e else - (Condiçoes) { resultado}

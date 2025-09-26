@@ -1,4 +1,4 @@
-package NivelBasico.Condicoes;
+package NivelBasico.Condicionais;
 
 public class Ternarios {
     public static void main(String[] args) {

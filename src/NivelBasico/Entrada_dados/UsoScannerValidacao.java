@@ -1,8 +1,8 @@
-package NivelBasico.Condicoes;
+package NivelBasico.Entrada_dados;
 
 import java.util.Scanner;
 
-public class ScannerDoUsuario {
+public class UsoScannerValidacao {
     public static void main(String[] args) {
      /*
       * Scanner = É jeito de trazer o usuario para dentro da aplicação.

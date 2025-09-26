@@ -1,5 +1,7 @@
 package NivelIntermediario;
 
+import NivelIntermediario.ClasseObjetos.Ninja;
+
 public class Uchiha extends Ninja {
     /*
      * O método VoID não retorna valor nenhum!

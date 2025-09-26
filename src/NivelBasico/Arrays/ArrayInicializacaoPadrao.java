@@ -1,6 +1,6 @@
-package NivelBasico.Condicoes;
+package NivelBasico.Arrays;
 
-public class Array {
+public class ArrayInicializacaoPadrao {
     public static void main(String[] args) {
 
         /*

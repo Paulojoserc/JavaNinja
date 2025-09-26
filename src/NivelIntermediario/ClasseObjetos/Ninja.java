@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.ClasseObjetos;
 
 public class Ninja {
     String nome;
