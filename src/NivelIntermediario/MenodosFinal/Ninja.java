@@ -1,4 +1,4 @@
-package NivelIntermediario.Sobrecarga;
+package NivelIntermediario.MenodosFinal;
 
 public abstract class Ninja implements EstrategiaDeBatalha {
 //TODO: Incluir novos 2 atributos: numeroDeMissoesConcluidas , Rank
@@ -11,7 +11,13 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     NivelNinja rank;
 
 
+
     public Ninja() {
+    }
+
+    //TODO NINJA VAI FAZER OBRIGATORIAMENTE
+    final void tacarKunai(){
+        System.out.println("EU SOU UM MÉTODO DA CLASSE MÃE!");
     }
 
     // Método existente: Primeiro método

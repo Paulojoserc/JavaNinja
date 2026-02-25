@@ -1,6 +1,6 @@
 package NivelIntermediario.SuperClasse;
 
-public class Uzumaki extends Ninja {
+public class  Uzumaki extends Ninja {
 
     public Uzumaki() {
         super();

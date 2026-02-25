@@ -1,4 +1,4 @@
-package NivelIntermediario.Sobrecarga;
+package NivelIntermediario.MenodosFinal;
 
 public interface EstrategiaDeBatalha {
     void estrategiaDeBatalhaNinja();

@@ -8,7 +8,7 @@ public class Ninja {
     String statusMissao;
 
     public void mostrarInformacoes(){
-        System.out.println("Meu "+ nome +" tenho "+idade+" anos, minha missão é "+missao+ " e esta "+statusMissao+".");
+        System.out.println("Meu nome é "+ nome +" tenho "+idade+" anos, minha missão é "+missao+ " e esta "+statusMissao+".");
     }
 
 

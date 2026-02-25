@@ -1,13 +1,10 @@
 package NivelIntermediario.AbstratasVsIntarfaces;
 
-public class Uchiha extends Ninja implements  SensorNinja{
+public class Uchiha extends Ninja {
 
-        @Override
-        void realizarJutsu() {
-            System.out.println("Uchiha: Amaterasu!");
-        }
-        @Override
-        public void detectarChakra() {
-            System.out.println("Uchiha usa o Sharingan para detectar chakra.");
-        }
+
+    @Override
+    public void nomeDoNinja() {
+        System.out.println("Meu nome é "+nome);
+    }
 }

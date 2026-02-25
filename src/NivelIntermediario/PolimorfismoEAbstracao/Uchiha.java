@@ -2,6 +2,7 @@ package NivelIntermediario.PolimorfismoEAbstracao;
 
 public class Uchiha extends Ninja {
 
+    //Sobreescrever o método da classe Ninja
     @Override
     public void habilidadeEspecial() {
 
@@ -11,6 +12,7 @@ public class Uchiha extends Ninja {
     //Sobreescrevendo a interface
     @Override
     public void estrategiaNinjaDeBatalhaNinja() {
-        System.out.println("Essa é a minha estrategia de combate");
+
+        System.out.println("Meu nome é "+nome+" Essa é minha estratégia de combate");
     }
 }

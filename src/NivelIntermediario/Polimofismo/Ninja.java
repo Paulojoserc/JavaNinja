@@ -6,7 +6,7 @@ public class Ninja {
     int idade;
 
     //Metodo geral! Todos os ninjas vão ter
-    public void habilidadeEspecial(){
-        System.out.println("Meu nome é "+nome +" e este é meu ataque especialS");
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é " + nome + " e este é meu ataque especial");
     }
 }

@@ -12,7 +12,7 @@ public class Uzumaki extends Ninja {
 
     @Override
     public void estrategiaNinjaDeBatalhaNinja() {
-        System.out.println("Essa é a minha estrategia de combate");
+        System.out.println("Meu nome é "+nome+" Essa é minha estratégia de combate");
     }
 }
 
