@@ -1,6 +1,4 @@
-package NivelIntermediario.MenodosFinal;
-
-import NivelIntermediario.CasseFinal.Anbu;
+package NivelIntermediario.CasseFinal;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +14,10 @@ public class Main {
         naruto.tacarKunai();
         System.out.println("------");
 
-        N
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.name = "Secreto";
+
+
 
         //Obj uchiha
         Uchiha sasuke = new Uchiha("Sasuke Uchiha ","\"Naruto Uzumaki\" ", 17,50, NivelNinja.JOUNIN );
