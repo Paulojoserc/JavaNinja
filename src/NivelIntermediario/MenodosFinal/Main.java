@@ -16,7 +16,7 @@ public class Main {
         naruto.tacarKunai();
         System.out.println("------");
 
-        N
+
 
         //Obj uchiha
         Uchiha sasuke = new Uchiha("Sasuke Uchiha ","\"Naruto Uzumaki\" ", 17,50, NivelNinja.JOUNIN );
