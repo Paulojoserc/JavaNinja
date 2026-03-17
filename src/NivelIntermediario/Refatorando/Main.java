@@ -6,6 +6,7 @@ public class Main {
         System.out.println("--------------- Naruto Uzumaki ---------------");
 
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da folha", 16, 15, NivelNinja.GENIN);
+
         naruto.minhaBiju();
 
         System.out.println("--------------- Sasuke Uchiha ---------------");
