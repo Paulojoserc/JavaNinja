@@ -12,6 +12,6 @@ public class Main {
 
         //Exemplo do uso de RECORDS
      NomeNinja cadastroNinja = new NomeNinja("Jiraya", 01 );
-        System.out.println("O cadastro é: "+cadastroNinja);
+        System.out.println("O cadastro é: "+cadastroNinja );
     }
 }
